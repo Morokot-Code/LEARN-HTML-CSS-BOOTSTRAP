@@ -1,0 +1,65 @@
+.paragraph {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgoldenrod;
+}
+
+.form1 {
+    width: 50%;
+    background-color: aqua;
+    padding: 10px 30px 40px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.form1 h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: dodgerblue;
+    text-align: center;
+    font-size: 35px;
+}
+
+.form1 h1 b {
+    color: brown;
+}
+
+label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.name-input {
+    background-color:bisque ;
+}
+
+.email-input {
+    background-color: brown;
+}
+
+.pass-input {
+    background-color: blueviolet;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: chartreuse;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+img {
+    width: 80px;
+    border-radius: 100%;
+    margin-left: 190px;
+    margin-top: 20px;
+}

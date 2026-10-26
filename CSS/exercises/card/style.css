@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:beige;
+}
+
+
+.card {
+    margin: 50px auto;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+    position: relative;
+    background-color: rgb(222, 236, 248);
+}
+
+.box-img {
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.box-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-item {
+    margin: 5px;
+    padding: 0px 20px;
+}
+
+.card-item .tag {
+    padding-top: 20px;
+    border-top: 1px solid gray;
+}
+
+.gaming-tag {
+    background-color: dodgerblue;
+    padding: 2px 7px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 220px;
+}
+
+.instock-tag {
+    background-color: gold;
+    padding: 2px 7px;
+    border-radius: 10px;
+}
+
+.title {
+    margin-top: 15px;
+}
+
+.title h2 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.rating-star {
+    color: gold;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.rating-star .rating {
+    color: black;
+    margin-left: 190px;
+    background-color: gold;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    background-color: dodgerblue;
+}
+
+.discount {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.932);
+    padding: 10px;
+    border-radius: 50%;
+    top: 19px;
+    left: 19px;
+}
+
+.fav {
+    position: absolute;
+    color: gold;
+    padding: 10px;
+    border-radius: 50%;
+    top: 19px;
+    right: 15px;
+}

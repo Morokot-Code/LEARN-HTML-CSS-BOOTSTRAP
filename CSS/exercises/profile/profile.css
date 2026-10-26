@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card {
+    margin: auto;
+    background-color:rgb(139, 139, 139);
+    border-radius: 20px;
+    width: 500px;
+    height: 700px;
+    padding: 15px;
+    position: relative;
+}
+
+.dis-count {
+    background-color: orange;
+    padding: 5px 0;
+    width: 50px;
+    text-align: center;
+    border-radius: 30px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+img {
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.des, .price {
+    margin: 20px 30px;
+    font-weight: 500;
+}
+
+.price {
+    color: gold;
+    margin-top: 50px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu, .buy {
+    border: none;
+    border-radius: 20px;
+}
+
+.menu {
+    padding: 10px 20px;
+    background-color: orange;
+}
+
+.buy {
+    background-color: orange;
+    padding: 5px 50px;
+    font-size: 20px;
+    font-weight: 400;
+}

@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(77, 75, 75);
+    padding: 10px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.navbar .nav {
+    display: flex;
+    margin: 0 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-img h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.logo-img h1 span {
+    color: orange;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+li ul:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.right button {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.right button:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+
+.grid-layout {
+    padding: 100px 50px;
+}
+
+.grid-layout h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.box-img {
+    overflow: hidden;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.box-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.box-item {
+    width: 100%;
+    height: 250px;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+}
+
+.box-item .tag {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tag .gaming-tag {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 2px 5px;
+    
+}
+
+.tag .instock-tag {
+    background-color: gold;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+.title-disc {
+    margin-top: 10px;
+}
+
+.title-disc h2 {
+    font-weight: 500;
+}
+
+.title-disc p {
+    margin: 10px 0;
+}
+
+.rating-star {
+    color: orange;
+    margin: 20px 0;
+}
+
+button {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+.box-item button:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
